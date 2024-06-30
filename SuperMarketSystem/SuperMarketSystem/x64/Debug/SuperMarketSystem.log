@@ -1,0 +1,21 @@
+﻿  Source.cpp
+C:\Users\Asus F15\source\repos\SuperMarketSystem\SuperMarketSystem\Source.cpp(165,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244: 'initializing': conversion from 'int' to '_Ty2', possible loss of data
+E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         with
+E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         [
+E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:             _Ty2=float
+E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'Source.cpp')
+  E:\vs.code\temp\VC\Tools\MSVC\14.39.33519\include\utility(250,54):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Asus F15\source\repos\SuperMarketSystem\SuperMarketSystem\Source.cpp(173,62):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<float&,int&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=float &,
+              _Other2=int &
+          ]
+  		C:\Users\Asus F15\source\repos\SuperMarketSystem\SuperMarketSystem\Source.cpp(173,49):
+  		see the first reference to 'std::pair<float,float>::pair' in 'printBill'
+  
+  SuperMarketSystem.vcxproj -> C:\Users\Asus F15\source\repos\SuperMarketSystem\x64\Debug\SuperMarketSystem.exe
